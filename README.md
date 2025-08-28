@@ -1,7 +1,7 @@
 <p align="center">
 <img src="./public/logo.png" alt="Logo BetAki!" />
 <h3 align="center">
-Website BetAki
+Plataforma web da BetAki
 </h3>
 </p>
 
