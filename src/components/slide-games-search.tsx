@@ -20,15 +20,15 @@ const data = [
 
 export default function SlideGamesSearch() {
   return (
-    <div className="flex gap-3 md:gap-5 overflow-x-auto scroll-smooth select-none overflow">
+    <div className="flex gap-3 md:gap-5 overflow-x-auto scroll-smooth select-none no-overflow">
       <div className="pl-px shrink-0 overflow-padding"></div>
 
         {data.map((item) => item.active ? (
-            <div key={item.id} className="flex flex-col items-center gap-3 mb-2 md:mb-4 shrink-0">
+            <div key={item.id} className="items-center items-center justify-content-center gap-3 mb-2 md:mb-4 shrink-0">
               <a
                 href={item.href}
                 target="_blank"
-                className="items-center justify-center"
+                className="cursor-grabbing no-underline"
               >
                 <Image
                   src={item.imageUrl}

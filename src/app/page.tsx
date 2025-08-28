@@ -50,8 +50,8 @@ export default function Home() {
           {/* Banners do topo */}
           <BannerTop />
 
-          {/* Buscar Jogos */}
-          <div className="py-5 rounded-xl">
+          {/* Conteúdo do site */}
+          <div className="border border-shark-800 bg-shark-900/40 backdrop-blur-3xl py-5 rounded-xl">
             {/* Buscar por jogos */}
             <div className="flex justify-center mb-4 mx-2">
               <div className="relative w-full max-w-5xl">
@@ -71,24 +71,32 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Apostas Realizadas */}
+            <div className="pt-2 md:pt-6 px-4">
+              <div className="relative">
+                Apostas card
+              </div>
+            </div>
+
+            {/* Os Mais Jogados BetAki */}
+            <div className="flex justify-center items-center mt-4 md:mt-8 rounded-xl py-3">
+            
+            </div>
+              
+            {/* Jogos Populares */}
+
+            {/* Cassino */}
+
+            {/* Jogos de Cassino Populares */}
+
+            {/* Esportes ao Vivo */}
+
+            {/* Jogos de Cassino ao Vivo */}
+
+            {/* Jogos Novos */}
+
           </div>
 
-
-          {/* Apostas Realizadas */}
-
-          {/* Jogos Populares */}
-
-          {/* Cassino */}
-
-          {/* Jogos de Cassino Populares */}
-
-          {/* Esportes ao Vivo */}
-
-          {/* Jogos de Cassino ao Vivo */}
-
-          {/* Jogos Novos */}
-
-          {/* Rodapé */}
         </div >
       </main >
       <Footer />
