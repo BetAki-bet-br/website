@@ -79,8 +79,10 @@ export default function Home() {
             </div>
 
             {/* Os Mais Jogados BetAki */}
-            <div className="flex justify-center items-center mt-4 md:mt-8 rounded-xl py-3">
-            
+            <div className="pt-2 md:pt-6 px-4">
+              <div className="relative">
+                Os Mais Jogados BetAki
+              </div>
             </div>
               
             {/* Jogos Populares */}
