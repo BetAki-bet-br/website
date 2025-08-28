@@ -32,4 +32,4 @@ A aplicação estará disponível em `http://localhost:3000`.
 
 ## 🔑 Licença
 
-Desenvolvido por Diogo Oliveira Lins [GOATech - Serviços Digitais](https://goatech.com.br).
+Desenvolvido por Diogo Oliveira Lins [BetAki.Bet.Br](https://betaki.bet.br).
