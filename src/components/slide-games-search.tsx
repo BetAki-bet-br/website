@@ -1,12 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import { Swiper, SwiperSlide } from "swiper/react";
-// import required modules
-import { Pagination } from 'swiper/modules'
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 const data = [
   { id: 1, name: 'Crash Games 1', href: 'https://betaki.bet.br/games/', imageUrl: '/images/search-jogos-icon.png', active: true, },
@@ -26,12 +20,11 @@ const data = [
 
 export default function SlideGamesSearch() {
   return (
-    <div className="flex gap-3 md:gap-5 overflow-x-auto scroll-smooth select-none no-overflow">
+    <div className="flex gap-3 md:gap-5 overflow-x-auto scroll-smooth select-none overflow">
       <div className="pl-px shrink-0 overflow-padding"></div>
-      <Swiper slidesPerView={8} spaceBetween={10} modules={[Pagination]} className="slide-games-swiper">
+
         {data.map((item) => item.active ? (
-          <SwiperSlide key={item.id}>
-            <div className="flex flex-col items-center gap-3 mb-0 md:mb-4 shrink-0">
+            <div key={item.id} className="flex flex-col items-center gap-3 mb-2 md:mb-4 shrink-0">
               <a
                 href={item.href}
                 target="_blank"
@@ -46,13 +39,13 @@ export default function SlideGamesSearch() {
                   className="w-16 h-16 md:w-20 md:h-20"
                 />
                 <p className="mt-2 text-xs leading-normal text-shark-900 dark:text-white font-medium text-center">
-                  Crash Games
+                  {item.name}
                 </p>
               </a>
             </div>
-          </SwiperSlide>
+
         ) : null)}
-      </Swiper>
+
       <div className="pr-px shrink-0 overflow-padding"></div>
     </div >
   );
