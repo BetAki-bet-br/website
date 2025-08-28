@@ -86,6 +86,11 @@ export default function Home() {
             </div>
               
             {/* Jogos Populares */}
+            <div className="pt-2 md:pt-6 px-4">
+              <div className="relative">
+                Jogos Populares
+              </div>
+            </div>
 
             {/* Cassino */}
 
