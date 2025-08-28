@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "BetAki - Cassino, Roleta, caça-níqueis, cartas e muito mais!",
     start_url: "/",
     background_color: "#000000",
-    theme_color: "#00a63e",
+    theme_color: "#c6d42d",
     display_override: ["fullscreen", "minimal-ui"],
     display: 'standalone',
     icons: [
